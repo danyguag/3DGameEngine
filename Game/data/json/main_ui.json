@@ -1,0 +1,50 @@
+{
+	"inventory" : 
+	{
+		"Name" : "Inventory",
+		"ComponentsCount" : 1,
+		"TransformType" : "Transform2f",
+
+		"GameComponent1" : 
+		{
+			"Type" : "UI",
+			"Texture" : "ui/inventory/inventory.jpg",
+			"PositionX" : -0.5,  
+			"PositionY" : 0,
+			"ScaleX" : 0.35,
+			"ScaleY" : 0.7
+		}
+	},
+	"armor_view" : 
+	{
+		"Name" : "Armor View",
+		"ComponentsCount" : 1,
+		"TransformType" : "Transform2f",
+
+		"GameComponent1" : 
+		{
+			"Type" : "UI",
+			"Texture" : "ui/inventory/inventory.jpg",
+			"PositionX" : 0.5,  
+			"PositionY" : 0,
+			"ScaleX" : 0.35,
+			"ScaleY" : 0.7
+		}
+	},
+	"button_test" :
+	{
+		"Name" : "Button_Test",
+		"ComponentsCount" : 1,
+		"TransformType" : "Transform2f",
+
+		"GameComponent1" : 
+		{
+			"Type" : "Button",
+			"Texture" : "ui/menus/main/Main_Menu_Options_Button.png",
+			"PositionX" : 0,  
+			"PositionY" : 0,
+			"ScaleX" : 0.25,
+			"ScaleY" : 0.25
+		}
+	}
+}

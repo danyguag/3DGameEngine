@@ -1,0 +1,23 @@
+{
+	"GameObject" : 
+	{
+		"ComponentsCount" : 2,
+		"TransformType" : "Transform3f",
+
+		"GameComponent1" :			
+		{
+			"Type" : "PHYSICSCOMPONENT"
+		},
+
+		"GameComponent2" :
+		{
+			"Type" : "PLAYER",
+			"Model" : "models/Box",
+			"Texture" : "textures/Splash_Screen_Presents.png",
+			"Username" : "Player",
+			"Transform3f.PositionX" : 0,
+			"Transform3f.PositionY" : 0,
+			"Transform3f.PositionZ" : -10
+		}
+	} 
+}

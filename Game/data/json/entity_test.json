@@ -1,0 +1,24 @@
+{
+	"entity_test" : 
+	{
+		"Name" : "Entity_Test",
+		"ComponentsCount" : 2,
+		"ScriptCount" : "0",
+		"TransformType" : "Transform3f",
+
+		"GameComponent1" :			
+		{
+			"Type" : "PhysicsComponent"
+		},
+
+		"GameComponent2" :
+		{
+			"Type" : "Entity",
+			"Model" : "models/Box",
+			"Texture" : "ui/inventory/InventoryTest.png",
+			"Transform3f.PositionX" : -5,
+			"Transform3f.PositionY" : 0,
+			"Transform3f.PositionZ" : -10
+		}
+	}
+}

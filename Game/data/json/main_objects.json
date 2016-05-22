@@ -1,0 +1,62 @@
+{
+	"player" : 
+	{
+		"Name" : "Player",
+		"ComponentsCount" : 2,
+		"TransformType" : "Transform3f",
+		"GameComponent1" :			
+		{
+			"Type" : "PhysicsComponent"
+		},
+
+		"GameComponent2" :
+		{
+			"Type" : "Player",
+			"Model" : "models/Box",
+			"Texture" : "textures/Splash_Screen_Presents.png",
+			"Username" : "Player",
+			"Transform3f.PositionX" : 0,
+			"Transform3f.PositionY" : 0,
+			"Transform3f.PositionZ" : -10
+		}
+	},
+
+	"LOADER" :
+	{
+		"Name" : "JSONLoader",
+		"ComponentsCount" : 1,
+		"TransformType" : "Neither",
+
+		"GameComponent1" :			
+		{
+			"Type" : "JSON",
+			"JSON" :
+			[
+				"main_ui",
+				"entity_test"
+			]
+		}		
+	},
+
+	"camera" : 
+	{
+		"Name" : "Camera",
+		"ComponentsCount" : 2,
+		"TransformType" : "Transform3f",
+
+		"GameComponent1" :			
+		{
+			"Type" : "PhysicsComponent"
+		},
+
+		"GameComponent2" :
+		{
+			"Type" : "Camera",
+			"Transform3f.PositionX" : 0,
+			"Transform3f.PositionY" : 0,
+			"Transform3f.PositionZ" : 0
+		}
+	}
+
+	
+}
